@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/mark-watney/static/css/main.5642368d.css",
+    "main.css": "/mark-watney/static/css/main.f18401fa.css",
     "main.js": "/mark-watney/static/js/main.cc263153.js",
     "static/media/Description-background.jpg": "/mark-watney/static/media/Description-background.e7bbe6c3de5faac47432.jpg",
     "static/media/Home-background.jpg": "/mark-watney/static/media/Home-background.36c8cc64969865d4f8f2.jpg",
@@ -9,11 +9,11 @@
     "static/media/Elon-Musk-Old.png": "/mark-watney/static/media/Elon-Musk-Old.ed62a6798f6b50287197.png",
     "static/media/News0.txt": "/mark-watney/static/media/News0.4717363274e33b1d7781.txt",
     "index.html": "/mark-watney/index.html",
-    "main.5642368d.css.map": "/mark-watney/static/css/main.5642368d.css.map",
+    "main.f18401fa.css.map": "/mark-watney/static/css/main.f18401fa.css.map",
     "main.cc263153.js.map": "/mark-watney/static/js/main.cc263153.js.map"
   },
   "entrypoints": [
-    "static/css/main.5642368d.css",
+    "static/css/main.f18401fa.css",
     "static/js/main.cc263153.js"
   ]
 }
