@@ -2,7 +2,7 @@
   "name": "save-mark-watney",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://BennyWu1210.github.io/mark-watney",
+  "homepage": "https://bennywu1210.github.io/mark-watney",
   "dependencies": {
     "-": "^0.0.1",
     "@fortawesome/fontawesome-free": "^6.1.1",
