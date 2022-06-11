@@ -1,7 +1,6 @@
 import React from "react";
 import "./CardsSection.css";
 import Card from "./common/Card";
-import "./CardsSection.css";
 function CardsSection({ news }) {
   return (
     <>

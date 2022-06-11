@@ -6,6 +6,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Donate from "./components/Pages/Donate";
 import Description from "./components/Pages/Description";
 import NewsPage from "./components/Pages/NewsPage";
+import Footer from "./components/Footer";
 
 // https://stackoverflow.com/questions/54427793/getting-blank-page-after-react-app-publish-in-github
 function App() {
@@ -44,6 +45,7 @@ function App() {
           ))}
         </Routes>
       </Router>
+      <Footer />
     </>
   );
 }

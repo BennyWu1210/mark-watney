@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import NavBar from "../NavBar";
 import "./NewsPage.css";
 
 function NewsPage({ title, image, textFile }) {
@@ -15,17 +16,18 @@ function NewsPage({ title, image, textFile }) {
       });
   };
   useEffect(() => {
-    console.log("BRUH");
     getPageContent();
   });
 
   return (
     <>
+      <NavBar color="black" />
       <div className="title-container">
         <img src={image} alt={title} className="title-background" />
       </div>
-      <h1>{title}</h1>
+
       <div className="news-content">
+        <h1>{title}</h1>
         {textContent.split("\n").map((paragraph) => (
           <p>{paragraph}</p>
         ))}

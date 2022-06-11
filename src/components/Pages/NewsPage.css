@@ -7,18 +7,22 @@
   justify-content: center;
   object-fit: contain;
   overflow: hidden;
+  margin-top: -80px;
 }
 
-.title-container > h1 {
-  
+h1 {
+  font-weight: bold;
 }
 
 .title-background {
-  margin: -200px 0 0 0;
   width: 100%;
   z-index: -1;
 }
 
 .news-content {
-  margin: 100px 0 0 0;
+  padding: 3rem;
+}
+
+.news-content > p{
+  font-size: 20px;
 }

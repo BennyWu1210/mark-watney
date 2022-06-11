@@ -125,6 +125,7 @@
   
   @media only screen and (max-width: 1024px) {
     .cards__item {
-      margin-bottom: 2rem;
+      width: 80vw;
+      margin-bottom: 5rem;
     }
   }

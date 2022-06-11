@@ -1,0 +1,38 @@
+.timer{
+  padding: 4rem;
+  background-color: #fff;
+}
+
+.timer-container{
+  
+}
+
+.timer-time{
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  grid-gap: 120px;
+  list-style: none;
+  text-align: center;
+  justify-content: center;
+  padding-right: 3%;
+}
+
+.timer-words{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-gap: 100px;
+    list-style: none;
+    text-align: center;
+    justify-content: center;
+  
+}
+
+.timer-time > li {
+  font-size: 45px;
+  font-weight: bold;
+  color: rgb(206, 26, 26);
+}
+
+.timer-words > li {
+  font-size: 32px;
+}

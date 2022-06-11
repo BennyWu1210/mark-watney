@@ -1,9 +1,9 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import CardsSection from "../CardsSection";
 import HeroSection from "../HeroSection";
 import NavBar from "../NavBar";
 import NewsPage from "./NewsPage";
-
+import Timer from "../Timer";
 function Home({ news }) {
   return (
     <>
@@ -14,7 +14,9 @@ function Home({ news }) {
         subtitle={"Surviving the Red Plant"}
       />
       <CardsSection news={news} />
+      <Timer />
     </>
   );
 }
+
 export default Home;
