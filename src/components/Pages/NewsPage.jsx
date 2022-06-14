@@ -28,9 +28,11 @@ function NewsPage({ title, image, textFile }) {
 
       <div className="news-content">
         <h1>{title}</h1>
+
         {textContent.split("\n").map((paragraph) => (
-          <p>{paragraph}</p>
+          <p dangerouslySetInnerHTML={{ __html: paragraph }}></p>
         ))}
+        <i>Date: June 13th, 2035</i>
       </div>
     </>
   );

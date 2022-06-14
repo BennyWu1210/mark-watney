@@ -21,6 +21,36 @@ function App() {
         "Sources: \"Elon Musk is planning to increase SpaceX's involvement in Mark's rescue\"",
       text: "The trillionaire has ambitious plans. Here's what we know:",
     },
+    {
+      id: 1,
+      path: "/news/president-babcock",
+      label: "NASA Update",
+      srcSmall: require("./images/Taylor-Swift.jpg"),
+      srcLarge: require("./images/Taylor-Swift-Background.jpg"),
+      title:
+        "Chairman of The North American Union (NAU) hosts a joint press conference with NASA",
+      text: "The conference is a significant turning point, analysis says ",
+    },
+    {
+      id: 2,
+      path: "/news/potato-prices",
+      label: "Analysis",
+      srcSmall: require("./images/Potatoes.jpg"),
+      srcLarge: require("./images/Potatoes-Background.jpg"),
+      title:
+        "Potato prices have risen by 734% in the past year, and it will likely to rise even more in the near future",
+      text: "The conference is a significant turning point, analysis says ",
+    },
+    {
+      id: 3,
+      path: "/news/ares3-interview",
+      label: "Interview",
+      srcSmall: require("./images/Ares3.jpg"),
+      srcLarge: require("./images/Ares3-Background.jpg"),
+      title:
+        "Potato prices have risen by 734% in the past year, and it will likely to rise even more in the near future",
+      text: "The conference is a significant turning point, analysis says ",
+    },
   ];
 
   const getNewsPage = (index) => {

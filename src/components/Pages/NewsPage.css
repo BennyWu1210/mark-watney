@@ -12,6 +12,7 @@
 
 h1 {
   font-weight: bold;
+  padding: 0 0 2rem
 }
 
 .title-background {
@@ -20,9 +21,10 @@ h1 {
 }
 
 .news-content {
-  padding: 3rem;
+  padding: 5rem;
 }
 
 .news-content > p{
-  font-size: 20px;
+  font-size: 23px;
+  margin-bottom: 2.5rem;
 }

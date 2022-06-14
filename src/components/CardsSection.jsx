@@ -9,7 +9,7 @@ function CardsSection({ news }) {
         <p>
           It is the year 2035. After almost a century of crazy development, the
           world has seen unprecedented growth in the field of space exploration.
-          “<b>Ares 4</b>” was one of the many crazy missions that shocked the
+          “<b>Ares 3</b>” was one of the many crazy missions that shocked the
           world and truly demonstrates our potential, many believe that it is
           human’s first step of conquering the Solar System.
         </p>
@@ -37,6 +37,8 @@ function CardsSection({ news }) {
           Please scroll to view the latest news today regarding the world’s
           effort to save Mark Watney
         </p>
+        <br />
+        <h1>Latest News </h1>
         <div className="cards__container">
           <div className="cards__wrapper">
             <ul className="cards__items">
@@ -48,24 +50,27 @@ function CardsSection({ news }) {
                 text={news[0].text}
               />
               <Card
-                path="/news/1"
-                label="Breaking News"
-                src={require("../images/Home-background.jpg")}
-                text="President speaks out"
+                path={news[1].path}
+                label={news[1].label}
+                src={news[1].srcSmall}
+                title={news[1].title}
+                text={news[1].text}
               />
             </ul>
             <ul className="cards__items">
               <Card
-                path="/news/1"
-                label="Breaking News"
-                src={require("../images/Home-background.jpg")}
-                text="President speaks out"
+                path={news[2].path}
+                label={news[2].label}
+                src={news[2].srcSmall}
+                title={news[2].title}
+                text={news[2].text}
               />
               <Card
-                path="/news/1"
-                label="Breaking News"
-                src={require("../images/Home-background.jpg")}
-                text="President speaks out"
+                path={news[3].path}
+                label={news[3].label}
+                src={news[3].srcSmall}
+                title={news[3].title}
+                text={news[3].text}
               />
             </ul>
           </div>
