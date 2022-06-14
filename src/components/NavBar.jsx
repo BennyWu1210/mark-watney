@@ -6,8 +6,6 @@ function NavBar({ color }) {
   const [showNavBackground, setNavBackground] = useState();
 
   const changeBackground = () => {
-    console.log(window.scrollY);
-    console.log(showNavBackground);
     if (window.scrollY >= 600 && !showNavBackground) {
       setNavBackground(true);
     } else if (window.scrollY < 480 && showNavBackground) {
