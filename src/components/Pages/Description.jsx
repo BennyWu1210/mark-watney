@@ -31,8 +31,11 @@ function Description() {
           website:D
         </b>
         <br />
-        <b>Citation</b>
-        <i>Weir, Andy. The Martian: A Novel. First paperback classroom edition. New York: Broadway Books, 2014. Print.</i>
+        <div className="citation" style={{color: "rgb(220, 15, 15)"}}>
+          <b>Citation</b>
+          <br />
+          <i>Weir, Andy. The Martian: A Novel. First paperback classroom edition. New York: Broadway Books, 2014. Print.</i>
+        </div>
         <br />
         <br />
         <video src={require("../../Videos/World.mp4")} autoPlay muted/>
