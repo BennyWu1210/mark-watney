@@ -15,7 +15,7 @@ function Description() {
         className="content"
         style={{ backgroundColor: "white", padding: "4rem" }}
       >
-        <h1>Let’s stand together! 🕊</h1>
+        <h1>We believe in hope. ❤️</h1>
         <p style={{ fontSize: "20px" }}>
           We aim to bring the world together through the effort of bringing our
           hero home, and we need your help. 60% of your donation goes straight
@@ -27,9 +27,9 @@ function Description() {
           rescue, please consider supporting this mission 💖
         </p>
         <p style={{ fontSize: "20px" }}>
-          We believe in hope. ❤️ “Save Mark Watney” is a non-profit organization
-          that represent humanity’s unanimous effort to rescue Mark Watney!
-          Learn more about the latest news of the organization{" "}
+          “Save Mark Watney” is a non-profit organization that represent
+          humanity’s unanimous effort to rescue Mark Watney! Learn more about
+          the latest news of the organization{" "}
           <Link to="/">
             <i>here</i>
           </Link>

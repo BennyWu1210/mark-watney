@@ -39,7 +39,7 @@ function App() {
       srcLarge: require("./images/Potatoes-Background.jpg"),
       title:
         "Potato prices have risen by 734% in the past year, and it will likely to rise even more in the near future",
-      text: "The conference is a significant turning point, analysis says ",
+      text: "Potatoes are now more expensive than gas",
     },
     {
       id: 3,
@@ -47,9 +47,8 @@ function App() {
       label: "Interview",
       srcSmall: require("./images/Ares3.jpg"),
       srcLarge: require("./images/Ares3-Background.jpg"),
-      title:
-        "Potato prices have risen by 734% in the past year, and it will likely to rise even more in the near future",
-      text: "The conference is a significant turning point, analysis says ",
+      title: "Exclusive interview with the NASA Ares 3 crew:",
+      text: "See what the heros think about their mission ",
     },
   ];
 

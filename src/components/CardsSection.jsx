@@ -10,8 +10,8 @@ function CardsSection({ news }) {
           It is the year 2035. After almost a century of crazy development, the
           world has seen unprecedented growth in the field of space exploration.
           “<b>Ares 3</b>” was one of the many crazy missions that shocked the
-          world and truly demonstrates our potential, many believe that it is
-          human’s first step of conquering the Solar System.
+          world and truly demonstrated our potential. Many believe that it is
+          human’s first step in conquering the Solar System.
         </p>
         <p>
           The 6 astronauts landed on Mars 324 Sols (a solar day on Mars) ago.
