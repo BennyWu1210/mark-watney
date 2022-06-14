@@ -16,18 +16,9 @@ function Description() {
         style={{ backgroundColor: "white", padding: "4rem" }}
       >
         <h1>We believe in hope. ❤️</h1>
+        
         <p style={{ fontSize: "20px" }}>
-          We aim to bring the world together through the effort of bringing our
-          hero home, and we need your help. 60% of your donation goes straight
-          to our space agencies to accelerate the effort of saving Mark Watney,
-          30% of them go to international organizations for the development of
-          future space-exploration technologies, while the remaining goes to
-          charities that support the next generation of cosmologists and
-          astronauts. Every dollar you give will increase the chance of Mark’s
-          rescue, please consider supporting this mission 💖
-        </p>
-        <p style={{ fontSize: "20px" }}>
-          “Save Mark Watney” is a non-profit organization that represent
+          <b>“Save Mark Watney”</b> is a non-profit organization that represent
           humanity’s unanimous effort to rescue Mark Watney! Learn more about
           the latest news of the organization{" "}
           <Link to="/">
@@ -40,9 +31,11 @@ function Description() {
           website:D
         </b>
         <br />
+        <b>Citation</b>
+        <i>Weir, Andy. The Martian: A Novel. First paperback classroom edition. New York: Broadway Books, 2014. Print.</i>
         <br />
         <br />
-        <video src={require("../../Videos/World.mp4")} autoPlay />
+        <video src={require("../../Videos/World.mp4")} autoPlay muted/>
       </div>
     </>
   );

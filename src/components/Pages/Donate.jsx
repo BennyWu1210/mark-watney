@@ -23,7 +23,7 @@ function Donate() {
           30% of them go to international organizations for the development of
           future space-exploration technologies, while the remaining goes to
           charities that support the next generations of cosmologists and
-          astronautes.Every dollar you give will increase the chance of Mark’s
+          astronautes. Every dollar you give will increase the chance of Mark’s
           rescue, please consider supporting this mission 💖
         </p>
         <div className="donate-container">

@@ -1,6 +1,5 @@
 import React from "react";
 import "./HeroSection.css";
-import NavBar from "./NavBar";
 function HeroSection({ imageSource, title, subtitle }) {
   return (
     <div className="hero-container">

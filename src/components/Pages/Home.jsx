@@ -11,7 +11,7 @@ function Home({ news }) {
       <HeroSection
         imageSource={require("../../images/Home-background.jpg")}
         title={"Save Mark Watney"}
-        subtitle={"Surviving the Red Plant"}
+        subtitle={"Surviving the Red Planet"}
       />
       <CardsSection news={news} />
       <Timer />

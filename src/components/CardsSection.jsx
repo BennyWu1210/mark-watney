@@ -29,12 +29,11 @@ function CardsSection({ news }) {
         <p>
           Mark is a true pioneer of humanity. Many say that the World has never
           been this united before, and that is exactly what the{" "}
-          <b>“Save Mark Watney”</b>
-          organization is aiming for - spread hope while bringing humanity
-          together against this challenge.
+          “<b>Save Mark Watney</b>” organization is aiming for - spread hope while bringing 
+          humanity together against this challenge.
         </p>
         <p>
-          Please scroll to view the latest news today regarding the world’s
+          Please scroll to view the news today regarding the world’s latest
           effort to save Mark Watney
         </p>
         <br />
