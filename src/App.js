@@ -56,7 +56,8 @@ function App() {
     return (
       <NewsPage
         image={news[index].srcLarge}
-        textFile={require("./TextFiles/News" + index + ".txt")}
+        contentFile={require("./TextFiles/News" + index + ".txt")}
+        analysisFile={require("./TextFiles/Analysis" + index + ".txt")}
         title={news[index].title}
       />
     );

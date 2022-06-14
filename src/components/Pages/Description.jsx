@@ -23,7 +23,7 @@ function Description() {
           30% of them go to international organizations for the development of
           future space-exploration technologies, while the remaining goes to
           charities that support the next generation of cosmologists and
-          astronauts.Every dollar you give will increase the chance of Mark’s
+          astronauts. Every dollar you give will increase the chance of Mark’s
           rescue, please consider supporting this mission 💖
         </p>
         <p style={{ fontSize: "20px" }}>
@@ -35,7 +35,14 @@ function Description() {
           </Link>
         </p>
 
-        <b>p.s. Ms. Babcock let me know how many easter eggs you've found :D</b>
+        <b>
+          p.s. Ms. Babcock let me know how many easter eggs you've found in this
+          website:D
+        </b>
+        <br />
+        <br />
+        <br />
+        <video src={require("../../Videos/World.mp4")} autoPlay />
       </div>
     </>
   );
